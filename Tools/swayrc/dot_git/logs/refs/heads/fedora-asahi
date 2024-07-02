@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 1c1be8337dc84d0d3bcb8c61ce832ba4c146d996 Christian <purin213@hotmail.com> 1711366926 +0900	branch: Created from HEAD
+1c1be8337dc84d0d3bcb8c61ce832ba4c146d996 b824dfaf6fe614246270d1f40ef446c00d7754b7 Christian <purin213@hotmail.com> 1711367468 +0900	commit: configure for asahi linux
+b824dfaf6fe614246270d1f40ef446c00d7754b7 cff6f455a7e181070c60aedad4be8baa2855548b Christian <purin213@hotmail.com> 1711869431 +0900	commit: fix bugs
+cff6f455a7e181070c60aedad4be8baa2855548b 84f1c5885b61d80dd9c264cca646e9c4ab1a6f0b Christian <purin213@hotmail.com> 1715335660 +0900	commit: changed some sway and change waybar to be on bottom
+84f1c5885b61d80dd9c264cca646e9c4ab1a6f0b c8d32df509f6b3485965517310f277f70606142f Christian <purin213@hotmail.com> 1717512281 +0900	commit: change border
