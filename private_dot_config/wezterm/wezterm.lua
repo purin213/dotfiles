@@ -9,8 +9,9 @@ local config = wezterm.config_builder()
 config.enable_tab_bar = false
 config.color_scheme = 'Moonfly (Gogh)'
 
--- Spawn a fish shell in login mode
+--[[ Spawn a fish shell in login mode
 config.default_prog = { '/usr/bin/fish', '-l' }
+]]--
 
 -- Font config
 config.font = wezterm.font("0xProto")
