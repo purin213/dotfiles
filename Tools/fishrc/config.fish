@@ -2,9 +2,8 @@ if status is-interactive
 	# Commands to run in interactive sessions can go here
 
 	#ALIAS
-	alias tree='eza -l --icons --tree'
-	alias ls='eza -l --icons'
-    alias dnf='dnf5'
+	alias tree='eza -ls ext --icons --tree'
+	alias ls='eza -ls ext --icons'
     alias vim='nvim'
     alias rmatrix='rusty-rain -C green -H 255,255,255 -c alphalow -s'
     alias zj='zellij'
@@ -60,3 +59,7 @@ end
 
 zoxide init --cmd cd fish | source
 
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
