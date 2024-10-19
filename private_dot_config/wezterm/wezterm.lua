@@ -15,7 +15,7 @@ config.default_prog = { '/usr/bin/fish', '-l' }
 
 -- Font config
 config.font = wezterm.font("0xProto")
-config.font_size = 18.0
+config.font_size = 16.0
 
 -- and finally, return the configuration to wezterm
 return config
