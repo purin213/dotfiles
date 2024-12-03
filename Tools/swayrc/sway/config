@@ -7,7 +7,8 @@
 font pango: 0xProto Medium 16
 
 # Border setting
-default_border none
+default_border pixel 1
+hide_edge_borders smart
 
 set $repeat_delay 100
 set $repeat_rate 20
@@ -37,7 +38,8 @@ set $menu wofi --show
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /usr/share/backgrounds/sway/NZsheep.JPG fill
+# output * bg /usr/share/backgrounds/sway/NZsheep.JPG fill
+
 #
 # Example configuration:
 #

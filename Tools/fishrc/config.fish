@@ -53,8 +53,9 @@ if status is-interactive
     set -x PATH $PATH (go env GOPATH)/bin
     set PATH $PATH ~/.cargo/bin
 
-    # Set EDITOR
+    # Set global variables
     set -gx EDITOR nvim
+    set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
 end
 
 zoxide init --cmd cd fish | source
