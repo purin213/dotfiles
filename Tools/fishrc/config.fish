@@ -55,6 +55,7 @@ if status is-interactive
 
     # Set global variables
     set -gx EDITOR nvim
+    set -gx BAT_THEME "base16"
     set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
 end
 
