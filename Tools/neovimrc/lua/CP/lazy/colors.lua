@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or "carbonfox"
+	color = color or "oxocarbon"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -52,5 +52,11 @@ return {
     {
         "EdenEast/nightfox.nvim",
     },
-
+    {
+      "nyoom-engineering/oxocarbon.nvim"
+      -- Add in any other configuration;
+      --   event = foo,
+      --   config = bar
+      --   end,
+    }
 }
