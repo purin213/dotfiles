@@ -56,7 +56,8 @@ if status is-interactive
     # Set global variables
     set -gx EDITOR nvim
     set -gx BAT_THEME "base16"
-    set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
+    set -gx MANPAGER "less -M -R -i --use-color -Dd+R -Du+B -DHkC -j5"
+    set -gx MANROFFOPT "-c"
 end
 
 zoxide init --cmd cd fish | source
