@@ -8,7 +8,6 @@ if status is-interactive
     alias rmatrix='rusty-rain -C green -H 255,255,255 -c alphalow -s'
     alias zj='zellij'
 
-
 	# Nightfox Color Palette
 	# Style: carbonfox
 	# Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/carbonfox/carbonfox.fish
@@ -55,6 +54,7 @@ if status is-interactive
 
     # Set global variables
     set -gx EDITOR nvim
+    set -gx TERM ghostty
     set -gx BAT_THEME "base16"
     set -gx MANPAGER "less -M -R -i --use-color -Dd+R -Du+B -DHkC -j5"
     set -gx MANROFFOPT "-c"
