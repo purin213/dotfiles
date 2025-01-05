@@ -1,0 +1,13 @@
+theme = /usr/share/ghostty/themes/carbonfox
+
+window-decoration = false
+
+shell-integration-features = no-cursor
+
+cursor-color = white
+cursor-opacity = 0.8
+cursor-style = block
+cursor-style-blink = false
+
+font-family = 0xProto
+font-size = 16
