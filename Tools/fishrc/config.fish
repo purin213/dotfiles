@@ -2,8 +2,9 @@ if status is-interactive
 	# Commands to run in interactive sessions can go here
 
 	#ALIAS
-	alias tree='eza -ls ext --icons --tree'
-	alias ls='eza -ls ext --icons'
+	alias tree='eza -ls type --icons --tree'
+	alias ls='eza -s type --icons'
+	alias ll='eza -ls type --icons'
     alias vim='nvim'
     alias rmatrix='rusty-rain -C green -H 255,255,255 -c alphalow -s'
     alias zj='zellij'
