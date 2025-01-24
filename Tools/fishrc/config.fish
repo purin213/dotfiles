@@ -2,9 +2,9 @@ if status is-interactive
 	# Commands to run in interactive sessions can go here
 
 	#ALIAS
-	alias tree='eza -ls extension --icons --tree'
-	alias ls='eza -s extension --icons'
-	alias ll='eza -ls extension --icons'
+	alias tree='eza -ls type --icons --tree'
+	alias ls='eza -s type --icons'
+	alias ll='eza -ls type --icons'
     alias vim='nvim'
     alias rmatrix='rusty-rain -C green -H 255,255,255 -c alphalow -s'
     alias zj='zellij'
@@ -67,3 +67,13 @@ zoxide init --cmd cd fish | source
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# yazi
+function y
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	yazi $argv --cwd-file="$tmp"
+	if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		builtin cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end

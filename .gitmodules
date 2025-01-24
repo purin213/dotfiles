@@ -1,0 +1,3 @@
+[submodule "Tools/yazirc/flavors/moonfly.yazi"]
+	path = Tools/yazirc/flavors/moonfly.yazi
+	url = https://github.com/tkapias/moonfly.yazi.git
